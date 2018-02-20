@@ -1,14 +1,14 @@
 [
   {
-    "id": "001-git-intro",
+    "episodeId": "001-git",
     "title": "第一节"
   },
   {
-    "id": "002-handson-git",
+    "episodeId": "002-handson-git",
     "title": "第二节"
   },
   {
-    "id": "003-ep3",
+    "episodeId": "003-ep3",
     "title": "第三节 Git"
   }
 ]
