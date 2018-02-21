@@ -1,7 +1,7 @@
 [
   {
-    "episodeId": "001-git",
-    "title": "第一节"
+    "episodeId": "001-intro",
+    "title": "简介"
   },
   {
     "episodeId": "002-handson-git",
