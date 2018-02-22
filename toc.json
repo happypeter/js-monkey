@@ -1,14 +1,17 @@
-[
-  {
-    "episodeId": "001-intro",
-    "title": "简介"
-  },
-  {
-    "episodeId": "002-handson-git",
-    "title": "第二节"
-  },
-  {
-    "episodeId": "003-ep3",
-    "title": "第三节 Git"
-  }
-]
+{
+  "title": "JS 猴子",
+  "toc": [
+    {
+      "episodeId": "001-intro",
+      "title": "简介"
+    },
+    {
+      "episodeId": "002-handson-git",
+      "title": "第二节"
+    },
+    {
+      "episodeId": "003-ep3",
+      "title": "第三节 Git"
+    }
+  ]
+}
