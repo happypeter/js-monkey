@@ -1,18 +1,14 @@
----
-title: 异常处理语句怎么写？
----
-
 你可以用 throw 语句抛出一个异常并且用 try...catch 语句捕获处理它。
 
-- throw statement
-- try...catch statement
+* throw statement
+* try...catch statement
 
 ### 异常类型（Exception Types）
 
 JavaScript 可以抛出任意对象。然而，不是所有对象能产生相同的结果。尽管抛出数值或者字母串作为错误信息十分常见，但是通常用下列其中一种异常类型来创建目标更为高效：
 
-- ECMAScript exceptions
-- DOMException and DOMError
+* ECMAScript exceptions
+* DOMException and DOMError
 
 ### 抛出语句（throw Statement）
 
@@ -31,7 +27,7 @@ throw true;       // 布尔值
 throw {toString: function() { return "I'm an object!"; } };
 ```
 
-> 注意：你可以在抛出异常时声明一个对象。那你就可以在捕捉块中查询到对象的属性。下面的例子创建了一个UserException类型的对象myUserException用在抛出语句中。
+> 注意：你可以在抛出异常时声明一个对象。那你就可以在捕捉块中查询到对象的属性。下面的例子创建了一个 UserException 类型的对象 myUserException 用在抛出语句中。
 
 ```
 // Create an object type UserException
@@ -54,9 +50,9 @@ throw new UserException("Value too high");
 
 try...catch 语句标记一块待尝试的语句，并规定一个以上的响应应该有一个异常被抛出。如果我们抛出一个异常，try...catch 语句就捕获它。
 
-try...catch 语句有一个包含一条或者多条语句的try代码块，0个或多个的catch代码块，catch代码块中的语句会在try代码块中抛出异常时执行。 换句话说，如果你在try代码块中的代码如果没有执行成功，那么你希望将执行流程转入catch代码块。如果try代码块中的语句（或者try 代码块中调用的方法）一旦抛出了异常，那么执行流程会立即进入catch 代码块。如果try代码块没有抛出异常，catch代码块就会被跳过。finally 代码块总会紧跟在try和catch代码块之后执行，但会在try和catch代码块之后的其他代码之前执行。
+try...catch 语句有一个包含一条或者多条语句的 try 代码块，0 个或多个的 catch 代码块，catch 代码块中的语句会在 try 代码块中抛出异常时执行。 换句话说，如果你在 try 代码块中的代码如果没有执行成功，那么你希望将执行流程转入 catch 代码块。如果 try 代码块中的语句（或者 try 代码块中调用的方法）一旦抛出了异常，那么执行流程会立即进入 catch 代码块。如果 try 代码块没有抛出异常，catch 代码块就会被跳过。finally 代码块总会紧跟在 try 和 catch 代码块之后执行，但会在 try 和 catch 代码块之后的其他代码之前执行。
 
-下面的例子使用了try...catch语句。示例调用了一个函数用于从一个数组中根据传递值来获取一个月份名称。如果该值与月份数值不相符，会抛出一个带有"InvalidMonthNo"值的异常，然后在捕捉块语句中设monthName变量为unknown。
+下面的例子使用了 try...catch 语句。示例调用了一个函数用于从一个数组中根据传递值来获取一个月份名称。如果该值与月份数值不相符，会抛出一个带有"InvalidMonthNo"值的异常，然后在捕捉块语句中设 monthName 变量为 unknown。
 
 ```
 function getMonthName(mo) {

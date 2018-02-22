@@ -1,8 +1,3 @@
----
-title: Babel 到底是用来干啥的？
----
-
-
 Babel 的官网在：http://babeljs.io/ 。官网上对它的描述是：
 
 > 一个 Javascript 的编译器( compiler )

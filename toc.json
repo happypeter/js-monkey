@@ -4,11 +4,47 @@
     "title": "简介"
   },
   {
-    "episodeId": "002-handson-git",
-    "title": "第二节"
+    "episodeId": "002-extend",
+    "title": "类的继承"
   },
   {
-    "episodeId": "003-ep3",
-    "title": "第三节 Git"
+    "episodeId": "003-block",
+    "title": "什么是语句块（Block Statement）？"
+  },
+  {
+    "episodeId": "004-babel",
+    "title": "Babel"
+  },
+  {
+    "episodeId": "005-comments",
+    "title": "JS 代码中怎么写注释？"
+  },
+  {
+    "episodeId": "006-literals",
+    "title": "什么是字面值（ Literals ）？"
+  },
+  {
+    "episodeId": "007-exception",
+    "title": "异常处理"
+  },
+  {
+    "episodeId": "008-let",
+    "title": "let var 区别"
+  },
+  {
+    "episodeId": "009-declarations",
+    "title": "JS 中怎么声明变量？"
+  },
+  {
+    "episodeId": "010-module",
+    "title": "ES6 模块的最基本的使用方式是什么？"
+  },
+  {
+    "episodeId": "011-params",
+    "title": "拓展参数"
+  },
+  {
+    "episodeId": "012-type",
+    "title": "JS 中都有哪些数据结构和类型？"
   }
 ]
