@@ -15,3 +15,10 @@ let i = 1;
 ```
 var i = 1;
 ```
+
+
+另外，babel 也可以转译 react 的 jsx 语法。
+
+### 集成环境
+
+很多脚手架程序都内置集成了 babel ，所以不需要我们来安装配置，默认就可以支持 es6 和 jsx 。例如，create-react-app 和 gatsby 。
