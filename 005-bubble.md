@@ -86,7 +86,7 @@
 
 上面的例子中，一个 div 包裹了一个 video 标签。当点按钮的时候，video 标签会出现。但是，当我们点播放器试图执行 `video.play()` 的时候，由于冒泡原理，video 和 div 的 onClick 事件都会触发。于是视频虽然开始播放了，但是用户也看不到，因为 div 已经被隐藏了。
 
-![](001-bubble.png)
+![](https://raw.githubusercontent.com/happypeter/js-monkey/master/img/001-bubble.png)
 
 要解决这个问题，就要用 `stopPropagation` 方法来阻止事件扩散。
 
