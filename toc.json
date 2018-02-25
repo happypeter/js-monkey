@@ -4,23 +4,15 @@
     "title": "在代码中做决定 — 条件"
   },
   {
-    "episodeId": "002-extend",
+    "episodeId": "002-loop",
     "title": "循环语句"
   },
   {
-    "episodeId": "003-block",
+    "episodeId": "003-functions",
     "title": "函数 — 可重用的代码块"
   },
   {
-    "episodeId": "004-babel",
-    "title": "打造自己的函数"
-  },
-  {
-    "episodeId": "005-comments",
-    "title": "函数返回值"
-  },
-  {
-    "episodeId": "006-literals",
+    "episodeId": "005-events",
     "title": "事件介绍"
   }
 ]
