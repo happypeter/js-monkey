@@ -12,7 +12,11 @@
     "title": "函数 — 可重用的代码块"
   },
   {
-    "episodeId": "005-events",
+    "episodeId": "004-events",
     "title": "事件介绍"
+  },
+  {
+    "episodeId": "005-bubble",
+    "title": "事件冒泡"
   }
 ]
