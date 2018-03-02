@@ -32,7 +32,7 @@ for 不是 js 中唯一的循环类型，其他的还有很多。while 是常见
 
 伪代码
 
-```
+```js
 initializer
 while (exit-condition) {
   // code to run
